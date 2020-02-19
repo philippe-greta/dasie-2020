@@ -1,8 +1,8 @@
 /* NavBar */
 
 .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 20px !important;
-    padding-left: 20px !important;
+    padding-right: 20px;
+    padding-left: 20px;
     font-size: 18px;
 }
 .navbar-dark .navbar-nav .active>.nav-link {
