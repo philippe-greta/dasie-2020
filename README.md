@@ -6,3 +6,4 @@ Participants
 - Tropi-Mango
 - Marie 
 - Greutz
+- Alexandre Hoffmann
