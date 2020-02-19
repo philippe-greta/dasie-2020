@@ -1,384 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>Mes formations</title>
-
-
-<style>
-    .card-formation {
-        width: 200px;
-        height: auto;
-        margin: 8px;
-
-        box-shadow: 10px 10px 5px grey;
-        border-top-left-radius: 35px;
-        font-size: 0.8rem;
-        text-align: center;
-        cursor: pointer;
-        transition: all 0.5 ease-in-out;
-    }
-
-
-
-    .card-formation:hover {
-        box-shadow: none;
-
-        border: none;
-        box-shadow: 3px 3px 5px grey;
-    }
-
-    .card-formation>.card-header {
-        height: 80px;
-        border-top-left-radius: 55px;
-        color: rgba(52, 106, 207, 0.8);
-
-
-    }
-
-    .card-formation>.card-body {
-        height: 160px;
-
-        background-color: rgba(52, 106, 207, 0.8);
-        color: white;
-
-    }
-</style>
+<!doctype html>
+<html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Accueil</title>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html">GRETA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark mb-5">
-        <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" alt="" width="80px"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-
-                <li class="nav-item">
-                    <a class="nav-link" href="formations.html">les formations</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="cartes.html">Les cartes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="faq.html">F.A.Q.</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Nous contacter</a>
-                </li>
-
-            </ul>
-
-        </div>
-    </nav>
-    <!--/.Navbar-->
-    <div class="container" style="padding:80px 0 100px 0">
-        <div class="row flex-wrap justify-content-center">
-
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre">Bâtiment, Travaux publics</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui">Greta du Var</div>
-                    <div class="intitule"> Titre professionnel maçon en voirie et réseaux divers (Maçon VRD)</div>
-                </div>
-                <div class="card-footer">BRIGNOLES</div>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="formations.html">Formations <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carte.html">Carte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    
+                </ul>
 
             </div>
+        </nav>
 
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre">Bâtiment, Travaux publics</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui">Greta Côte d'Azur</div>
-                    <div class="intitule"> Titre professionnel maçon en voirie et réseaux divers (Maçon VRD)</div>
-                </div>
-                <div class="card-footer">Antibes</div>
+    </header>
 
-            </div>
+    <section>
 
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre">Tourisme</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui">Greta Tourisme Hôtellerie</div>
-                    <div class="intitule">Accueil et Service de la Clientèle anglophone</div>
-                </div>
-                <div class="card-footer">CANNES</div>
-            </div>
+    </section>
 
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre"> Protection des biens et des personnes</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui"> Greta du Var</div>
-                    <div class="intitule">CQP Agent de Prévention et de Sécurité (APS)</div>
-                </div>
-                <div class="card-footer">FREJUS</div>
-            </div>
+    <footer>
+        <div class='page-section footer-section bg-dark'>
+            <div class='row'>
+                <div class='container text-center'>
+                    <div class="col-xs-12 col-md-12">
+                        <hr>
 
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre"> Protection des biens et des personnes</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui"> Greta du Var</div>
-                    <div class="intitule">CQP Agent de Prévention et de Sécurité (APS)</div>
-                </div>
-                <div class="card-footer">BRIGNOLES</div>
-            </div>
 
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre">Social, Médico-social, SAP</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui"> Greta du Var</div>
-                    <div class="intitule">Accompagnement à la VAE Diplôme d’Etat d’Accompagnant éducatif et social</div>
-                </div>
-                <div class="card-footer">TOULON</div>
-            </div>
+                        <p class="text-subhead text-light">
+                            Copyright © 2019 DAFPIC - Tous droits réservés DAFPIC - Délégation académique à la formation
+                            professionnelle initiale et continue - Rectorat de Nice - 53, ave Cap de Croix - 06181 Nice
+                            cedex 2<br>
+                            conception : <a href="#"> wiSign</a>. | <a href='/mentions.html'> Mentions légales</a> | <a
+                                href='/qualite.html'> Qualité</a> <br> <a href="download/cgv.pdf" target="_blank">
+                                Conditions Générales de Vente :</a> <a
+                                href="download/CONDITIONS GENERALES DE VENTE GRETA COTE D AZUR.pdf" target="_blank">
+                                Greta Côte d'Azur </a> - <a
+                                href="download/CONDITIONS GENERALES DE VENTE GRETA DU VAR.pdf" target="_blank"> Greta Du
+                                Var </a> - <a
+                                href="download/CONDITIONS GENERALES DE VENTE GRETA TOURISME HOTELLERIE.pdf"
+                                target="_blank"> Greta Tourisme Hôtellerie </a> - <a
+                                href="download/CONDITIONS GENERALES DE VENTE GIP FIPAN.pdf" target="_blank"> GIP FIPAN
+                            </a> - <a href="download/CONDITIONS GENERALES DE VENTE GIP FIPAN.pdf" target="_blank">
+                                V.A.E. </a>
+                        </p>
 
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre">Santé, Paramédical</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui"> Greta du Var</div>
-                    <div class="intitule">Accompagnement à la VAE Diplôme d’Etat d’Aide-Soignant</div>
-                </div>
-                <div class="card-footer">TOULON</div>
-            </div>
 
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre">Social, Médico-social, SAPl</div>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <div class="qui"> Greta du Var</div>
-                    <div class="intitule">Accompagnement à la VAE préparant au DEAES</div>
-                </div>
-                <div class="card-footer">TOULON</div>
-            </div>
 
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre">Santé, Paramédical</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui">Greta Côte d'Azur</div>
-                    <div class="intitule"> Accompagnement à la VAE préparant au Diplôme dEtat dAide-Soignant(e)</div>
-                </div>
-                <div class="card-footer">ANTIBES JUAN LES PINS</div>
-            </div>
-
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre"> Accompagnement VAE Diplômes professionnels Éducation nationale</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui">GIP FIPAN</div>
-                    <div class="intitule">Accompagnement à la validation des acquis de l expérience du CAP au BTS</div>
-                </div>
-                <div class="card-footer">LA SEYNE SUR MER</div>
-            </div>
-
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre"> Accompagnement VAE Diplômes professionnels Éducation nationale</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui">GIP FIPAN</div>
-                    <div class="intitule">Accompagnement à la validation des acquis de l expérience du CAP au BTS</div>
-                </div>
-                <div class="card-footer">NICE</div>
-            </div>
-
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre"> Accompagnement VAE Diplômes professionnels Éducation nationale</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui">GIP FIPAN</div>
-                    <div class="intitule">Accompagnement à la validation des acquis de l expérience du CAP au BTS</div>
-                </div>
-                <div class="card-footer">ANTIBES</div>
-            </div>
-
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre"> Accompagnement VAE Diplômes professionnels Éducation nationale</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui">GIP FIPAN</div>
-                    <div class="intitule">Accompagnement à la validation des acquis de l expérience du CAP au BTS</div>
-                </div>
-                <div class="card-footer">Fréjus</div>
-            </div>
-
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre"> Accompagnement VAE Autres certifications</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui">VAE</div>
-                    <div class="intitule"> Accompagnement à la validation des acquis de l’expérience des diplômes
-                        Moniteur Educateur/Educateur Spécialisé</div>
-                </div>
-                <div class="card-footer">NICE</div>
-            </div>
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre">Accompagnement VAE Diplômes professionnels Éducation nationale</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui"> GIP FIPAN</div>
-                    <div class="intitule"> Accompagnement à la validation des acquis de l’expérience des diplômes
-                        Moniteur Educateur/Educateur Spécialisé</div>
-                </div>
-                <div class="card-footer">LA SEYNE SUR MER</div>
-            </div>
-            <div class="card-formation">
-                <div class="card-header">
-                    <div class="logo"></div>
-                    <div class="titre">Accompagnement VAE Diplômes professionnels Éducation nationale</div>
-                </div>
-                <div class="card-body">
-                    <div class="qui"> GIP FIPAN</div>
-                    <div class="intitule"> Accompagnement à la validation des acquis de l’expérience des diplômes
-                        Moniteur Educateur/Educateur Spécialisé</div>
-                </div>
-                <div class="card-footer">LA SEYNE SUR MER</div>
             </div>
         </div>
-    </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
-<footer class="page-section footer-section bg-dark w-100">
-    <div class="row">
-        <div class="container text-center">
-            <div class="col-xs-12 col-md-12">
-                <hr>
 
-
-                <p class="text-subhead text-light">
-                    Copyright © 2019 DAFPIC - Tous droits réservés DAFPIC - Délégation académique à la formation
-                    professionnelle initiale et continue - Rectorat de Nice - 53, ave Cap de Croix - 06181 Nice cedex
-                    2<br>
-                    conception : <a href="#"> wiSign</a>. | <a href="/mentions.html"> Mentions légales</a> | <a
-                        href="/qualite.html"> Qualité</a> <br> <a href="download/cgv.pdf" target="_blank"> Conditions
-                        Générales de Vente :</a> <a href="download/CONDITIONS GENERALES DE VENTE GRETA COTE D AZUR.pdf"
-                        target="_blank"> Greta Côte d'Azur </a> - <a
-                        href="download/CONDITIONS GENERALES DE VENTE GRETA DU VAR.pdf" target="_blank"> Greta Du Var
-                    </a> - <a href="download/CONDITIONS GENERALES DE VENTE GRETA TOURISME HOTELLERIE.pdf"
-                        target="_blank"> Greta Tourisme Hôtellerie </a> - <a
-                        href="download/CONDITIONS GENERALES DE VENTE GIP FIPAN.pdf" target="_blank"> GIP FIPAN </a> - <a
-                        href="download/CONDITIONS GENERALES DE VENTE GIP FIPAN.pdf" target="_blank"> V.A.E. </a>
-                </p>
-
-
-            </div>
-        </div>
-
-    </div>
-
-</footer>
-
-</html> <!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script>
-<link rel="stylesheet" href="css/style.css">
-
-
-<script src='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
-<link href='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
-<script>
-    $(document).ready(function () {
-        $('.carousel-indicators li').click(function () {
-            $('.carousel-indicators li').removeClass('active')
-            $(this).addClass('active')
-            wrapper_w = parseInt($('.wrapper').css('width'))
-            carousel_w = parseInt($('.carousel').css('width'))
-            pos = $(this).attr('data-slide-to')
-            w = parseInt($('.card').css('width')) + 15;
-            if (-(pos * w) > (carousel_w - wrapper_w)) {
-                $('.wrapper').css('margin-left', -(pos * w) + 'px')
-            } else {
-                $('.wrapper').css('margin-left', carousel_w - wrapper_w + 'px')
-            }
-
-        })
-
-        $('.btn-floating').click(function () {
-            const direction = $(this).attr('data-slide');
-            left = parseInt($('.wrapper').css('margin-left'))
-            nombrePhoto = $('.card').length;
-
-            wrapper_w = parseInt($('.wrapper').css('width'))
-            carousel_w = parseInt($('.carousel').css('width'))
-
-            w = parseInt($('.card').css('width')) + 15;
-            if (direction == 'prev') {
-
-                if (left + w >= 0) {
-                    $('.wrapper').css('margin-left', '0px')
-                } else {
-                    $('.wrapper').css('margin-left', left + w + 'px')
-                }
-
-            } else {
-                console.log((left - w) + ">" + (carousel_w - wrapper_w))
-                if ((left - w) > (carousel_w - wrapper_w)) {
-
-                    $('.wrapper').css('margin-left', left - w + 'px')
-                } else {
-                    $('.wrapper').css('margin-left', carousel_w - wrapper_w + 'px')
-                }
-
-            }
-        })
-    })
-
-
-</script>
+</html>
