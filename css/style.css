@@ -1,0 +1,45 @@
+
+.carousel-card {
+    width: 400px;
+}
+.card {
+    width: 400px;
+}
+
+.carousel-indicators {
+bottom: -30px;
+    color: black;
+}
+.carousel-indicators li {
+    background-color: #8c2a2a;
+    }
+
+.carousel-in {
+    display: flex;
+}
+
+.wrapper {
+    width: auto;
+    margin-left: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-side {
+    border: 1px solid #75CFF0;
+    padding: 16px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #75CFF0;
+}
+
+.card-side:hover {
+    background-color: #75CFF0;
+    color: white;
+}
+
+.card-side.active {
+    background-color: #75CFF0;
+    color: white; 
+}
+
