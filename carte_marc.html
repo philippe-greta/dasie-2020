@@ -6,45 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-    <!-- Bootstrap core CSS -->
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/marc_map.css">
 </head>
 
 <body>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark mb-5">
-        <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" alt="" width="80px"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">GRETA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-
                 <li class="nav-item">
-                    <a class="nav-link" href="formations.html">les formations</a>
+                    <a class="nav-link" href="formations.html">Formations</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="carte.html">Les cartes</a>
+                    <div class="dropdown">
+                        <button class="nav-link btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Cartes
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <!-- TODO ajouter les cartes -->
+                            <!-- <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a> -->
+                            <a class="dropdown-item" href="carte.html">Carte</a>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="faq.html">F.A.Q.</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Nous contacter</a>
-                </li>
-
             </ul>
-
+            <span class="navbar-nav">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </span>
         </div>
     </nav>
     <!--/.Navbar-->
