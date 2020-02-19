@@ -6,7 +6,7 @@
     font-size: 18px;
 }
 .navbar-dark .navbar-nav .active>.nav-link {
-    color: orangered;
+    color: orangered!important;
     font-weight: bold;
 }
 .navbar-dark .navbar-nav .nav-link {
