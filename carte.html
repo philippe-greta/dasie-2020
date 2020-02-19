@@ -1,94 +1,112 @@
-<!doctype html>
-<html lang="fr">
-
+<!DOCTYPE html>
+<html lang="en">
+    <title>Les cartes</title>
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Bootstrap CSS -->
+
+    <title>Les cartes</title>
+
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css">
 
-    <title>Accueil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/marc_map.css">
 </head>
 
 <body>
-    <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Greta</a>
-    <div class="container">
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="formations.html">Formation</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="carte.html">Carte</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="faq.html">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-
-      </div>
-    </div>
-  </nav>
-
-    </header>
-
-    <section>
-
-    </section>
-
-    <footer>
-        <div class='page-section footer-section bg-dark'>
-            
-                <div class='container text-center'>
-				<div class='row'>
-                    <div class="col-xs-12 col-md-12">
-                        <hr>
 
 
-                        <p class="text-subhead text-light">
-                            Copyright © 2019 DAFPIC - Tous droits réservés DAFPIC - Délégation académique à la formation professionnelle initiale et continue - Rectorat de Nice - 53, ave Cap de Croix - 06181 Nice cedex 2<br> conception : <a href="#"> wiSign</a>.
-                            | <a href='/mentions.html'> Mentions légales</a> | <a href='/qualite.html'> Qualité</a> <br> <a href="download/cgv.pdf" target="_blank">
-                                Conditions Générales de Vente :</a> <a href="download/CONDITIONS GENERALES DE VENTE GRETA COTE D AZUR.pdf" target="_blank">
-                                Greta Côte d'Azur </a> - <a href="download/CONDITIONS GENERALES DE VENTE GRETA DU VAR.pdf" target="_blank"> Greta Du
-                                Var </a> - <a href="download/CONDITIONS GENERALES DE VENTE GRETA TOURISME HOTELLERIE.pdf" target="_blank"> Greta Tourisme Hôtellerie </a> - <a href="download/CONDITIONS GENERALES DE VENTE GIP FIPAN.pdf" target="_blank"> GIP FIPAN
-                            </a> - <a href="download/CONDITIONS GENERALES DE VENTE GIP FIPAN.pdf" target="_blank">
-                                V.A.E. </a>
-                        </p>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">GRETA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="formations.html">Formations</a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="nav-link btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Cartes
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <!-- TODO ajouter les cartes -->
+                            <!-- <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a> -->
+                            <a class="dropdown-item" href="carte.html">Carte</a>
+                        </div>
                     </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <span class="navbar-nav">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </span>
+        </div>
+    </nav>
+    <!--/.Navbar-->
+    <div class="container"  style="padding:80px 0 300px 0">
+        <div class="content row">
+
+
+
+
+            <aside class="col-md-4">
+                <div class="card-side active">
+                    <a href="carte_marc.html">Carte de Marc</a>
+                </div>
+                <div class="card-side">
+                    <a href="carte_jeff.html">Carte de Jeff</a>
+
                 </div>
 
-            </div>
+            </aside>
+
         </div>
-    </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    </div>
+
+
+
+    <footer class="footer bg-dark w-100 fixed-bottom">
+        <div class="row">
+            <div class="container text-center">
+               <div class="col-xs-12 col-md-12">
+              <hr>
+           
+  
+          <p class="text-subhead text-light">
+                Copyright © 2019 DAFPIC - Tous droits réservés DAFPIC - Délégation académique à la formation professionnelle initiale et continue - Rectorat de Nice - 53, ave Cap de Croix - 06181 Nice cedex 2<br>
+                conception : <a href="#"> wiSign</a>.  | <a href="/mentions.html"> Mentions légales</a>  | <a href="/qualite.html"> Qualité</a> <br> <a href="download/cgv.pdf" target="_blank"> Conditions Générales de Vente :</a>  <a href="download/CONDITIONS GENERALES DE VENTE GRETA COTE D AZUR.pdf" target="_blank"> Greta Côte d'Azur </a> - <a href="download/CONDITIONS GENERALES DE VENTE GRETA DU VAR.pdf" target="_blank"> Greta Du Var </a> - <a href="download/CONDITIONS GENERALES DE VENTE GRETA TOURISME HOTELLERIE.pdf" target="_blank"> Greta Tourisme Hôtellerie </a> - <a href="download/CONDITIONS GENERALES DE VENTE GIP FIPAN.pdf" target="_blank"> GIP FIPAN </a> - <a href="download/CONDITIONS GENERALES DE VENTE GIP FIPAN.pdf" target="_blank"> V.A.E. </a>
+           </p>
+  
+  
+          </div>  
+            </div>
+           
+        </div>
+
+</footer>
 </body>
 
+
 </html>
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+
