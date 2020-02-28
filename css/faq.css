@@ -1,7 +1,3 @@
-body {
-    margin-top: 30px;
-    background-color: #eee;
-}
 .faq-nav {
     flex-direction: column;
     margin: 0 0 32px;
@@ -77,8 +73,4 @@ body {
 }
 .collapse.show .card-body {
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-}
-
-.card {
-    width: 100%;
 }

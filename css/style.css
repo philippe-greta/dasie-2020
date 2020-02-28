@@ -37,8 +37,11 @@
     display: flex;
 }
 
-.wrapper {
-    width: auto;
-    margin-left: 0;
-    transition: all 0.5s ease-in-out;
+section:first-of-type {
+    margin: 80px 0;
+    min-height: 800px
+}
+
+section:first-of-type h1{
+    font-size: 1.5em
 }
