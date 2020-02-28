@@ -47,12 +47,72 @@
         </nav>
     </header>
 
-    <section>
+    <section class="py-5">
         <div class='container text-center'>
             <h1>Contact</h1>
+            <div class="row text-left">
+                <div class="col-12">
+                    <div id="alert" role="alert"></div>
+                    <form id="contact-form"  class="py-5">
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Votre prenom *</label>
+                                        <input name="name" id="form_name" type="text"  class="form-control" placeholder="Entrez votre prenom" required="required" data-error="Firstname is required.">
+                                        <p id="errorName" class="text-danger ml-2"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Votre nom *</label>
+                                        <input name="lastName" id="form_lastname" type="text"  class="form-control" placeholder="Entrez votre nom" required="required" data-error="Lastname is required.">
+                                        <p id="errorLastName" class="text-danger ml-2"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Votre email *</label>
+                                        <input  name="email" id="form_email" type="email" class="form-control" placeholder="Entrez votre email" required="required" data-error="Valid email is required.">
+                                        <p id="errorEmail" class="text-danger ml-2"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Votre téléphone *</label>
+                                        <input  name="tel" id="form_tel" type="text" class="form-control" placeholder="Entrez votre numero de téléphone" required="required" data-error="Valid email is required.">
+                                        <p id="errorTel" class="text-danger ml-2"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">Votre message *</label>
+                                        <textarea name="area" id="form_message"  class="form-control" placeholder="Entrez un message ..." rows="4" required data-error="Please,leave us a message."></textarea>
+                                        <p id="errorArea" class="text-danger ml-2"></p>
+                                        <p default-value="500 caractère max" id="charNum" class="text-info ml-2">500 caractère max</p>
 
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button id="button_validate" type="button" onclick="verifJquery();" class="btn btn-success btn-send">
+                                        Envoyez
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
         </div>
+
     </section>
+
 
     <footer>
         <div class='page-section footer-section bg-dark'>
