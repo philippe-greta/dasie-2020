@@ -1,7 +1,3 @@
-body {
-    margin-top: 30px;
-    background-color: #eee;
-}
 .faq-nav {
     flex-direction: column;
     margin: 0 0 32px;
@@ -50,10 +46,10 @@ body {
     border-radius: 0;
     background-color: #f6f6f6;
 }
-.tab-content .card-header h5 {
+.tab-content .card-header h2 {
     margin: 0;
 }
-.tab-content .card-header h5 button {
+.tab-content .card-header h2 button {
     display: block;
     width: 100%;
     padding: 0;
@@ -63,7 +59,7 @@ body {
     text-align: left;
     white-space: normal;
 }
-.tab-content .card-header h5 button:hover, .tab-content .card-header h5 button:focus, .tab-content .card-header h5 button:active, .tab-content .card-header h5 button:hover:active {
+.tab-content .card-header h2 button:hover, .tab-content .card-header h2 button:focus, .tab-content .card-header h2 button:active, .tab-content .card-header h2 button:hover:active {
     text-decoration: none;
 }
 .tab-content .card-body p {
@@ -77,8 +73,4 @@ body {
 }
 .collapse.show .card-body {
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-}
-
-.card {
-    width: 100%;
 }
